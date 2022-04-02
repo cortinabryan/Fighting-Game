@@ -153,7 +153,7 @@ function animate() {
     player.isAttacking
   ) {
     player.isAttacking = false;
-    console.log("player 1 attacking");
+    document.querySelector("#enemyHealth").style.width = "20%";
   }
 
   if (
